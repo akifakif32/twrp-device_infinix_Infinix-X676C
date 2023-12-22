@@ -5,14 +5,14 @@
 #
 
 # Inherit from Infinix-X676C device
-$(call inherit-product, device/infinix/Infinix-X676C/device.mk)
+$(call inherit-product, device/infinix/X676C/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
 PRODUCT_NAME := twrp_X676C
-PRODUCT_DEVICE := Infinix-X676C
+PRODUCT_DEVICE := X676C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X676C
 PRODUCT_MANUFACTURER := INFINIX
